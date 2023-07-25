@@ -41,6 +41,47 @@
     <!-- header section  -->
     <header class="max-w-screen-xl mx-auto px-5 md:px-8 lg:px-12">
         <!-- navbar section  -->
+        <nav class="text-white bg-primary-bg flex justify-between h-[70px] items-center px-5 mt-5 rounded-full">
+            <div class="">
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-1 md:space-x-2 lg:space-x-4">
+                        <a href="" class="hover:text-black font-medium text-xs md:text-lg">Home</a>
+                        <a href="" class="hover:text-black font-medium text-xs md:text-lg">About Us</a>
+                        <a href="" class="hover:text-black font-medium text-xs md:text-lg">Shop</a>
+                        <a href="" class="hover:text-black font-medium text-xs md:text-lg">All Fruits</a>
+                    </div>
+                </div>
+                <div class="dropdown text-black block md:hidden">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <a href="" class="hover:text-black font-medium">Home</a>
+                        <a href="" class="hover:text-black font-medium">About Us</a>
+                        <a href="" class="hover:text-black font-medium">Shop</a>
+                        <a href="" class="hover:text-black font-medium">All Fruits</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="./images/logo.png" class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12" alt="">
+                <h3 class="text-lg md:text-xl lg:text-3xl font-bold">Fruit Burst</h3>
+            </div>
+            <div>
+                <div class="bg-white py-2 px-3 rounded-full flex items-center">
+                    <input type="text" placeholder="search here..."
+                        class="bg-white border-none outline-none text-black hidden md:block">
+                    <i class="fa-solid fa-magnifying-glass text-black"></i>
+                </div>
+            </div>
+        </nav>
+
+
         <!-- banner section  -->
     </header>
 

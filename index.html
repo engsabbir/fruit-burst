@@ -41,7 +41,8 @@
     <!-- header section  -->
     <header class="max-w-screen-xl mx-auto px-5 md:px-8 lg:px-12">
         <!-- navbar section  -->
-        <nav class="text-white bg-primary-bg flex flex-row-reverse p-5 md:flex-row justify-between items-center mt-5 rounded-full">
+        <nav
+            class="text-white bg-primary-bg flex flex-row-reverse p-5 md:flex-row justify-between items-center mt-5 rounded-full">
             <div class="">
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-1 md:space-x-2 lg:space-x-4">
@@ -474,81 +475,73 @@
                 <p class="mt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of
                     classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="flex gap-10 mt-10 flex-col lg:flex-row">
-                <div class="flex gap-16 flex-col-reverse lg:flex-row">
-                    <div class="flex-1 space-y-5 mx-auto">
-                        <div class="flex items-center gap-3">
-                            <div class=" bg-gray-300 rounded-full">
-                                <i class="fa-solid fa-user-group p-4"></i>
-                            </div>
-                            <div class="space-y-1 ">
-                                <h3 class="text-2xl font-bold">Dedicated Team</h3>
-                                <hr class="w-[40%]">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
-                                </p>
-                            </div>
+
+            <!-- chose us container -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-10 mt-10">
+                <div class="order-2 lg:order-1 space-y-5">
+                    <div class="flex flex-col mx-auto text-center lg:text-start lg:flex-row items-center gap-5">
+                        <div class=" bg-gray-300 rounded-full">
+                            <i class="fa-solid fa-user-group p-4"></i>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class=" bg-gray-300 rounded-full">
-                                <i class="fa-solid fa-heart-circle-check p-4"></i>
-                            </div>
-                            <div class="space-y-1 ">
-                                <h3 class="text-2xl font-bold">Fresh is Best</h3>
-                                <hr class="w-[40%]">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <div class=" bg-gray-300 rounded-full">
-                                <i class="fa-solid fa-gifts p-4"></i>
-                            </div>
-                            <div class="space-y-1 ">
-                                <h3 class="text-2xl font-bold">Gift Certificates</h3>
-                                <hr class="w-[40%]">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
-                                </p>
-                            </div>
+                        <div class="space-y-1 ">
+                            <h3 class="text-2xl font-bold">Dedicated Team</h3>
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                            </p>
                         </div>
                     </div>
-                    <div class="flex-1 mx-auto">
-                        <img src="./images/whychoose1.png" alt="">
+                    <div class="flex flex-col mx-auto text-center lg:text-start lg:flex-row items-center gap-5">
+                        <div class=" bg-gray-300 rounded-full">
+                            <i class="fa-solid fa-heart-circle-check p-4"></i>
+                        </div>
+                        <div class="space-y-1 ">
+                            <h3 class="text-2xl font-bold">Fresh is Best</h3>
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col mx-auto text-center lg:text-start lg:flex-row items-center gap-5">
+                        <div class=" bg-gray-300 rounded-full">
+                            <i class="fa-solid fa-gifts p-4"></i>
+                        </div>
+                        <div class="space-y-1">
+                            <h3 class="text-2xl font-bold">Gift Certificates</h3> 
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class=" mx-auto">
-                    <div class="space-y-5">
-                        <div class="flex lg:flex-row-reverse lg:text-end items-center gap-3 ">
-                            <div class=" bg-gray-300 rounded-full">
-                                <i class="fa-solid fa-hands-asl-interpreting p-4"></i>
-                            </div>
-                            <div class="space-y-1 ">
-                                <h3 class="text-2xl font-bold">Integrated Supplier</h3>
-                                <hr class="w-[40%]">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
-                                </p>
-                            </div>
+                <div class="order-1 lg:order-2 mx-auto">
+                    <img src="./images/whychoose1.png" alt="">
+                </div>
+                <div class="order-3 space-y-5">
+                    <div class="flex flex-col mx-auto text-center lg:flex-row-reverse lg:text-end justify-end items-center gap-5">
+                        <div class=" bg-gray-300 rounded-full">
+                            <i class="fa-solid fa-hands-asl-interpreting p-4"></i>
                         </div>
-                        <div class="flex lg:flex-row-reverse lg:text-end  items-center gap-3">
-                            <div class=" bg-gray-300 rounded-full">
-                                <i class="fa-solid fa-ice-cream p-4"></i>
-                            </div>
-                            <div class="space-y-1 ">
-                                <h3 class="text-2xl font-bold">Sustainable Practice</h3>
-                                <hr class="w-[40%]">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
-                                </p>
-                            </div>
+                        <div class="space-y-1">
+                            <h3 class="text-2xl font-bold ">Integrated Supplier</h3>
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                            </p>
                         </div>
-                        <div class="flex lg:flex-row-reverse lg:text-end  items-center gap-3">
-                            <div class=" bg-gray-300 rounded-full">
-                                <i class="fa-solid fa-thumbs-up p-4"></i>
-                            </div>
-                            <div class="space-y-1 ">
-                                <h3 class="text-2xl font-bold">The Benefits Only</h3>
-                                <hr class="w-[40%]">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
-                                </p>
-                            </div>
+                    </div>
+                    <div class="flex flex-col mx-auto text-center lg:flex-row-reverse lg:text-end justify-end items-center gap-5">
+                        <div class=" bg-gray-300 rounded-full">
+                            <i class="fa-solid fa-ice-cream p-4"></i>
+                        </div>
+                        <div class="space-y-2 ">
+                            <h3 class="text-2xl font-bold">Sustainable Practice</h3>
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col mx-auto text-center lg:flex-row-reverse lg:text-end justify-end items-center gap-5">
+                        <div class=" bg-gray-300 rounded-full">
+                            <i class="fa-solid fa-thumbs-up p-4"></i>
+                        </div>
+                        <div class="space-y-1 ">
+                            <h3 class="text-2xl font-bold">The Benefits Only</h3>
+                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                            </p>
                         </div>
                     </div>
                 </div>
